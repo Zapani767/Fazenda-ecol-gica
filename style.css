@@ -542,25 +542,19 @@ h2 {
     line-height: 1.6;
     color: #333;
   }
-
+  
   .tarefas-animais .sub-list li {
     font-size: 1.25rem;
     line-height: 1.8;
     margin-bottom: 8px;
   }
- 
+  
   @media (max-width: 768px) {
-    .tarefas-animais {
-      font-size: 1.05rem;
-      line-height: 1.6;
-    }
- 
-    .tarefas-animais p {
-      font-size: 1.05rem;
+    .tarefas-animais .sub-list li {
+      font-size: 1.1rem;
       line-height: 1.6;
     }
   }
- 
     .minigame-title {
       font-size: 1rem;
       margin-bottom: 8px;
@@ -570,11 +564,6 @@ h2 {
     .minigame-desc {
       font-size: 0.95rem;
       line-height: 1.5;
-    }
-
-    .tarefas-animais .sub-list li {
-      font-size: 1.1rem;
-      line-height: 1.6;
     }
 
 @media (max-width: 768px) {
